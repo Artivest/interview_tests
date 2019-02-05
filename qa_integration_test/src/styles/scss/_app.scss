@@ -1,0 +1,14 @@
+html, body {
+  background-color: $ghost;
+}
+
+.app {
+  position: relative;
+  min-width: 375px;
+  min-height: calc(100vh + 10px);
+  padding-bottom: 75px;
+  background-color: $ghost;
+  font-family: $Helvetica;
+  color: $mine-shaft;
+  font-weight: 300;
+}

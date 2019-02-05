@@ -1,0 +1,12 @@
+.msg-box {
+  padding: 30px;
+  text-align: center;
+
+  &--success {
+    color: $verdant;
+  }
+
+  &--error {
+    color: $crimson;
+  }
+}

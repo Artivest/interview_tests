@@ -1,0 +1,72 @@
+.header {
+  position: relative;
+  background-color: $mine-shaft;
+  background-size: 500px 86px;
+  color: $concrete;
+  padding: 20px 15px 15px;
+  text-align: center;
+
+  &__title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  &__subtitle {
+    padding: 0 40px;
+    font-size: 0.85em;
+  }
+
+  &__logo {
+    position: absolute;
+    left: 5%;
+  }
+
+  &__img {
+    width: 40px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .header {
+    padding: 45px 40px 40px;
+
+    &__title {
+      font-size: 1.8em;
+      margin-bottom: 18px;
+    }
+
+    &__subtitle {
+      font-size: 1.25em;
+    }
+
+    &__logo {
+      left: 8%;
+    }
+
+    &__img {
+      width: 65px;
+    }
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  .header {
+    padding: 65px 60px 60px;
+
+    &__title {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    &__logo {
+      left: 10%;
+    }
+
+    &__img {
+      width: 80px;
+    }
+  }
+}

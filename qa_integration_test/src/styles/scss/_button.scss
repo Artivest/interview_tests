@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  color: $white;
+  font-size: .8em;
+  font-weight: 600;
+  padding: .75em 1.5em;
+  text-align: center;
+  border-radius: 2px;
+  background-color: $violet;
+  background-image: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  margin-right: 1em;
+
+  &:hover,
+  &:active {
+    background-color: $lilac;
+    color: $white;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}
