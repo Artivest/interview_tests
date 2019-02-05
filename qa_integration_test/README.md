@@ -1,6 +1,6 @@
 # Quality Engineer Challenge
 
-Code Challenge: Create a test suite to enforce the acceptance criteria below. You can use any testing framework that you like. A sample of the application can be found at <https://m-hatch.github.io/QE-Challenge/>
+Code Challenge: Create a test suite to enforce the acceptance criteria below. You can use any testing framework that you like. A sample of the application can be found at <https://artivest.github.io/interview_tests/qa_integration_test/>
 
 ## Acceptance Criteria
 
